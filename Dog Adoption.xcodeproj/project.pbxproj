@@ -13,7 +13,6 @@
 		AC9BA4051E64853C002BA3BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4031E64853C002BA3BC /* Main.storyboard */; };
 		AC9BA4071E64853C002BA3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4061E64853C002BA3BC /* Assets.xcassets */; };
 		AC9BA40A1E64853C002BA3BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4081E64853C002BA3BC /* LaunchScreen.storyboard */; };
-		AC9BA4131E648799002BA3BC /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA4121E648799002BA3BC /* Dog.m */; };
 		AC9BA4161E649837002BA3BC /* DogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA4151E649837002BA3BC /* DogsViewController.m */; };
 		AC9BA41A1E649DF8002BA3BC /* DogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA4181E649DF8002BA3BC /* DogTableViewCell.m */; };
 		AC9BA41B1E649DF8002BA3BC /* DogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA4191E649DF8002BA3BC /* DogTableViewCell.xib */; };
@@ -29,6 +28,7 @@
 		AC9BA4361E64B68E002BA3BC /* 7dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42C1E64B68E002BA3BC /* 7dog.jpeg */; };
 		AC9BA4371E64B68E002BA3BC /* 8dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42D1E64B68E002BA3BC /* 8dog.jpeg */; };
 		AC9BA4381E64B68E002BA3BC /* 9dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC9BA42E1E64B68E002BA3BC /* 9dog.jpeg */; };
+		ACA17E681E7B2F6900ED070A /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9BA4121E648799002BA3BC /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -184,6 +184,7 @@
 				TargetAttributes = {
 					AC9BA3F61E64853B002BA3BC = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AZZ5HNKYR9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -235,10 +236,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA17E681E7B2F6900ED070A /* Dog.m in Sources */,
 				AC9BA3FF1E64853C002BA3BC /* AppDelegate.m in Sources */,
 				AC9BA41A1E649DF8002BA3BC /* DogTableViewCell.m in Sources */,
 				AC9BA4201E649E3D002BA3BC /* UITableViewCell+GetClassName.m in Sources */,
-				AC9BA4131E648799002BA3BC /* Dog.m in Sources */,
 				AC9BA3FC1E64853C002BA3BC /* main.m in Sources */,
 				AC0096161E64DFE80091EEEE /* DogDetailTableViewController.m in Sources */,
 				AC9BA4211E649E3D002BA3BC /* UITableView+RegisterCustomCell.m in Sources */,
@@ -360,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AZZ5HNKYR9;
 				INFOPLIST_FILE = "Dog Adoption/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.deliens.Dog-Adoption";
@@ -371,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AZZ5HNKYR9;
 				INFOPLIST_FILE = "Dog Adoption/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.deliens.Dog-Adoption";
